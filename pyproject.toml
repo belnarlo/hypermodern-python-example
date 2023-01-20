@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "hypermodern-python-timo"
+version = "0.1.0"
+description = "Test of the 'Hypermodern Python Project'"
+authors = ["Timo Vlot <timo@vlot.org.uk>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/belnarlo/hypermodern-python-example.git"
+repository = "https://github.com/belnarlo/hypermodern-python-example.git"
+keywords = ["hypermodern"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.1.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+hypermodern-python = "hypermodern_python_timo.console:main"
